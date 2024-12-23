@@ -4,7 +4,7 @@ import mysql.connector as a
 
 def connect_to_db():
     try:
-        conn = a.connect(host="localhost", user="root", password="1234", database="services")
+        conn = a.connect(host="localhost", user="root", password="****", database="services")
         return conn
     except a.Error as err:
         messagebox.showerror("Connection Error", f"Error: {err}")
