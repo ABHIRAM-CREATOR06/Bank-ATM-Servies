@@ -1,7 +1,7 @@
 import mysql.connector as sql
 
 # Connect to MySQL server
-conn = sql.connect(host="localhost", user="root", password="1234")
+conn = sql.connect(host="localhost", user="root", password="****")
 if conn.is_connected():
     print("Connection to MySQL server successful")
 
